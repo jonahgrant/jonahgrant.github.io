@@ -1,0 +1,138 @@
+<style>
+
+html {
+  width: auto !important;
+  overflow-x: hidden !important;
+}
+
+body {
+  width: auto !important;
+  overflow-x: hidden !important;
+}
+
+.fade {
+   opacity: 1;
+   transition: opacity .25s ease-in-out;
+   -moz-transition: opacity .25s ease-in-out;
+   -webkit-transition: opacity .25s ease-in-out;
+   }
+
+   .fade:hover {
+      opacity: 0.8;
+      }
+
+#section a,a:link,a:visited {
+  color: #ffffff;
+}
+
+#section a:hover {
+  color:#ffffff;
+  opacity: 0.5;
+}
+
+
+a,a:link,a:visited {
+  color: #626264;
+}
+
+a:hover {
+  color:#828286;
+}
+
+.site-header {
+  background-color: #faf8f8;
+}
+
+.site-header-image {
+  background: url(images/header_background.png) no-repeat top center fixed;
+  background-color: #424242;
+}
+
+.sections {
+  background-color: #ffffff;
+}
+
+#section {
+  margin: auto;
+}
+
+#section #divider {
+  border-top: 1px solid #e6e6e6;
+}
+
+#modest {
+  height: 220px;
+  background-color: #000000;
+}
+
+#modest #logo {
+  margin-left: -10px;
+  padding-top: 50px;
+  text-align: center;
+}
+
+#modest #description {
+  color: #ffffff;
+  width: 100%;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+#belly {
+  height: 100%;
+  background-color: #33a9e0;
+  background: url(images/belly-bg.png);
+}
+
+#belly #logo {
+  margin-left: -10px;
+  padding-top: 60px;
+  text-align: center;
+}
+
+#belly #description {
+  color: #ffffff;
+  width: 100%;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+#lightbank {
+  height: 100%;
+  background-color: #33a9e0;
+  background: url(images/lightbank-bg.png);
+}
+
+#lightbank #logo {
+  margin-left: -10px;
+  padding-top: 60px;
+  text-align: center;
+}
+
+#lightbank #description {
+  color: #ffffff;
+  width: 100%;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+#mbus {
+  height: 700px;
+  background-color: #167efb;
+  text-align: center;
+}
+
+#mbus #logo {
+  margin-left: -10px;
+  padding-top: 60px;
+  height: 70%;
+}
+
+#mbus #description {
+  color: #ffffff;
+  width: 80%;
+  padding-left: 22%;
+  padding-right: 30px;
+}
+
+</style>
