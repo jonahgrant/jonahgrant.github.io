@@ -10,6 +10,17 @@ body {
   overflow-x: hidden !important;
 }
 
+.fade {
+   opacity: 1;
+   transition: opacity .25s ease-in-out;
+   -moz-transition: opacity .25s ease-in-out;
+   -webkit-transition: opacity .25s ease-in-out;
+   }
+
+   .fade:hover {
+      opacity: 0.8;
+      }
+
 #section a,a:link,a:visited {
   color: #ffffff;
 }
@@ -55,7 +66,7 @@ a:hover {
 }
 
 #modest #logo {
-  margin-left: 0px;
+  margin-left: -10px;
   padding-top: 50px;
   text-align: center;
 }
@@ -74,7 +85,7 @@ a:hover {
 }
 
 #belly #logo {
-  margin-left: 0px;
+  margin-left: -10px;
   padding-top: 60px;
   text-align: center;
 }
@@ -93,7 +104,7 @@ a:hover {
 }
 
 #lightbank #logo {
-  margin-left: 10px;
+  margin-left: -10px;
   padding-top: 60px;
   text-align: center;
 }
@@ -106,25 +117,26 @@ a:hover {
 }
 
 #mbus {
-  height: 700px;
+  height: 800px;
   background-color: #167efb;
   text-align: center;
 }
 
 #mbus #logo {
+  margin-left: -10px;
   padding-top: 60px;
   height: 70%;
 }
 
 #mbus #description {
   color: #ffffff;
-  width: 100%;
-  padding-left: 30px;
+  width: 80%;
+  padding-left: 22%;
   padding-right: 30px;
 }
 
 #urbanbuddy {
-  height: 700px;
+  height: 650px;
   background-color: #3399ff;
   text-align: center;
 }
@@ -132,7 +144,7 @@ a:hover {
 #urbanbuddy #logo {
   margin-left: -10px;
   padding-top: 60px;
-  height: 70%;
+  height: 80%;
 }
 
 #urbanbuddy #description {
