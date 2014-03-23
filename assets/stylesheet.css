@@ -74,6 +74,7 @@ a:hover {
 }
 
 #belly #logo {
+  margin-left: -10px;
   padding-top: 60px;
   text-align: center;
 }
@@ -92,6 +93,7 @@ a:hover {
 }
 
 #lightbank #logo {
+  margin-left: -10px;
   padding-top: 60px;
   text-align: center;
 }
