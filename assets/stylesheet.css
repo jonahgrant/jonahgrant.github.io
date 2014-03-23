@@ -124,14 +124,14 @@ a:hover {
 }
 
 #urbanbuddy {
-  height: 700px;
+  height: 650px;
   background-color: #2997ff;
   text-align: center;
 }
 
 #urbanbuddy #logo {
   padding-top: 60px;
-  height: 70%;
+  height: 80%;
 }
 
 #urbanbuddy #description {
