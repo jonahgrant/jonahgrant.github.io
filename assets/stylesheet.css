@@ -10,17 +10,6 @@ body {
   overflow-x: hidden !important;
 }
 
-.fade {
-   opacity: 1;
-   transition: opacity .25s ease-in-out;
-   -moz-transition: opacity .25s ease-in-out;
-   -webkit-transition: opacity .25s ease-in-out;
-   }
-
-   .fade:hover {
-      opacity: 0.8;
-      }
-
 #section a,a:link,a:visited {
   color: #ffffff;
 }
