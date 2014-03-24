@@ -19,6 +19,15 @@ body {
   opacity: 0.5;
 }
 
+#section #divider a,a:link,a:visited {
+  color: #626264;
+}
+
+#section #divider a:hover {
+  color: #828286;
+  opacity: 0.5;
+}
+
 
 a,a:link,a:visited {
   color: #626264;
