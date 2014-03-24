@@ -98,7 +98,7 @@ a:hover {
 #lightbank {
   height: 100%;
   background-color: #f78316;
-  background: url(images/lightbank-bg.png);
+  background: url(images/lightbank-bg.png) no-repeat top right;
 }
 
 #lightbank #logo {
