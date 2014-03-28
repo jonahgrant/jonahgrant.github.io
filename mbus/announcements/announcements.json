@@ -6,10 +6,11 @@
     "type":"Personal",
     "action": "email",
     "action_destination": "jonah@jonahgrant.com"},
-  {"title":"University of Michigan Admissions",
+  {"title":"Other",
     "text": "This is an announcement"
     "color":"2a69ff",
     "type":"Personal",
     "action": "none",
-    "action_destination": ""}]
+    "action_destination": ""}
+  ]
 }
