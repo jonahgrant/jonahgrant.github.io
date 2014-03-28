@@ -1,0 +1,7 @@
+{
+"response":[
+  {"title":"Test",
+    "text":"This is a announcement.",
+    "color":"#0000CC",
+    "type":"Status Update"}]
+}
