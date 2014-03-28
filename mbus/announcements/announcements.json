@@ -5,5 +5,11 @@
     "color":"2a69ff",
     "type":"Personal",
     "action": "email",
-    "action_destination": "jonah@jonahgrant.com"}]
+    "action_destination": "jonah@jonahgrant.com"},
+  {"title":"University of Michigan Admissions",
+    "text": "This is an announcement"
+    "color":"2a69ff",
+    "type":"Personal",
+    "action": "none",
+    "action_destination": ""}]
 }
