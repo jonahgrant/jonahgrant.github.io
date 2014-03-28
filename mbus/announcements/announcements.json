@@ -5,12 +5,6 @@
     "color":"2a69ff",
     "type":"Personal",
     "action": "email",
-    "action_destination": "jonah@jonahgrant.com"},
-  {"title":"Other",
-    "text": "This is an announcement"
-    "color":"2a69ff",
-    "type":"Personal",
-    "action": "none",
-    "action_destination": ""}
+    "action_destination": "jonah@jonahgrant.com"}
   ]
 }
