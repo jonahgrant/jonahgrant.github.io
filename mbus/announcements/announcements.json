@@ -3,5 +3,7 @@
   {"title":"University of Michigan Admissions",
     "text":"Hey all.  I'm the developer, Jonah Grant (@jonahgrant), and I'm a prospective freshman at UofM.\n\nI built this app after visiting campus and becoming fixated on the tech atmosphere in Ann Arbor.  After initially being deferred I was waitlisted.  I'm hoping for the best, but expecting the worst. But if you use MBus and appreciate what I've built, it would mean a lot to me if you could tap this and send a short message to the admissions department about how MBus has been helpful. Thanks everyone!",
     "color":"#2a69ff",
-    "type":"Personal"}]
+    "type":"Personal",
+    "action": "email",
+    "action_destination": "jonah@jonahgrant.com"}]
 }
