@@ -8,5 +8,14 @@
     "action":"email",
     "action_destination": "jonah@jonahgrant.com",
     "action_body": "",
+    "minimum_version": "1.3"},
+  {"title":"University of Michigan Admissions",
+    "text":"This message is only available above version 1.3.",
+    "color":"f0ad4e",
+    "background_color": "fcf8e3",
+    "type":"personal",
+    "action":"none",
+    "action_destination": "",
+    "action_body": "",
     "minimum_version": "1.3"}]
 }
