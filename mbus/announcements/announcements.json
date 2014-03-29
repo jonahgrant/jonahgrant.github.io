@@ -1,25 +1,4 @@
 {
 "response":[
-  {"title":"University of Michigan Admissions",
-    "text":"Hi /device_name. Is there anything you want in MBus that would make it better? Tap this message and let me know!\n\n- Jonah.",
-    "color":"f0ad4e",
-    "background_color": "fcf8e3",
-    "type":"personal",
-    "action":"email",
-    "action_destination": "jonah@jonahgrant.com",
-    "action_body": "",
-    "minimum_version": "",
-    "maximum_version": "",
-    "tag": "app_suggestion"},
-  {"title":"University of Michigan Admissions",
-    "text":"This message is only available for version 1.4.",
-    "color":"f0ad4e",
-    "background_color": "fcf8e3",
-    "type":"personal",
-    "action":"none",
-    "action_destination": "",
-    "action_body": "",
-    "minimum_version": "1.4",
-    "maximum_version": "1.4",
-  "tag": "v1.4_only_test"}]
+]
 }
