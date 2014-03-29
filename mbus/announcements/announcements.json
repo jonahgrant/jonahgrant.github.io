@@ -1,4 +1,11 @@
 {
 "response":[
-  ]
+  {"title":"University of Michigan Admissions",
+    "text":"Hi /device_name",
+    "color":"f0ad4e",
+    "background_color": "fcf8e3",
+    "type":"personal",
+    "action":"url",
+    "action_destination": "http://jonahgrant.com",
+    "action_body": ""}]
 }
