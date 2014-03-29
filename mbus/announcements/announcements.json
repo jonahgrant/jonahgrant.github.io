@@ -9,7 +9,7 @@
     "action_destination": "jonah@jonahgrant.com",
     "action_body": "email body"},
   {"title":"University of Michigan Admissions",
-    "text":"Hi /device_name.\n\nI'm the developer of MBus, Jonah Grant (@jonahgrant), and I'm a prospective freshman at UofM.\n\nI built this app after visiting campus and becoming fixated on the tech atmosphere in Ann Arbor.  After initially being deferred I was waitlisted. I'm cautiosly optomistic, but expecting to be denied. If you use MBus and appreciate what I've built, it would mean a lot to me if you could tap this message and write a short message to the admissions department about how MBus has been helpful in your time at UMich.\n\nThank you everyone!",
+    "text":"Test!",
     "color":"f0ad4e",
     "background_color": "fcf8e3",
     "type":"personal",
