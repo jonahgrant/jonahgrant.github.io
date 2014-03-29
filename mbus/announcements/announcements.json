@@ -9,7 +9,7 @@
     "action_destination": "jonah@jonahgrant.com",
     "action_body": "",
     "minimum_version": "1.1",
-    "maximum_version": "1.8",
+    "maximum_version": "1.2",
     "tag": "app_suggestion"},
   {"title":"University of Michigan Admissions",
     "text":"This message is only available above version 1.3.",
