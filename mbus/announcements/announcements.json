@@ -7,13 +7,5 @@
     "type":"personal",
     "action":"email",
     "action_destination": "jonah@jonahgrant.com",
-    "action_body": "email body"},
-  {"title":"University of Michigan Admissions",
-    "text":"Test!",
-    "color":"f0ad4e",
-    "background_color": "fcf8e3",
-    "type":"personal",
-    "action":"email",
-    "action_destination": "jonah@jonahgrant.com",
     "action_body": "email body"}]
 }
