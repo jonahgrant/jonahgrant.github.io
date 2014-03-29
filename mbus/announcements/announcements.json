@@ -8,7 +8,9 @@
     "action":"email",
     "action_destination": "jonah@jonahgrant.com",
     "action_body": "",
-    "minimum_version": "1.3"},
+    "minimum_version": "1.3",
+    "maximum_version": "",
+    "tag": "app_suggestion"},
   {"title":"University of Michigan Admissions",
     "text":"This message is only available above version 1.3.",
     "color":"f0ad4e",
@@ -17,7 +19,9 @@
     "action":"none",
     "action_destination": "",
     "action_body": "",
-    "minimum_version": "1.3"},
+    "minimum_version": "1.3",
+    "maximum_version": "",
+  "tag": "v1.3_only_test"},
   {"title":"University of Michigan Admissions",
     "text":"This message is only available above version 1.6.",
     "color":"f0ad4e",
@@ -26,5 +30,7 @@
     "action":"none",
     "action_destination": "",
     "action_body": "",
-    "minimum_version": "1.6"}]
+    "minimum_version": "1.6",
+    "maximum_version": "",
+    "tag": "v1.6_only_test"}]
 }
