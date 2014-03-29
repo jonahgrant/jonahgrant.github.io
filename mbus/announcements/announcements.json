@@ -8,5 +8,5 @@
     "action":"email",
     "action_destination": "jonah@jonahgrant.com",
     "action_body": "",
-    "minimum_version": "1.0"}]
+    "minimum_version": "1.6"}]
 }
