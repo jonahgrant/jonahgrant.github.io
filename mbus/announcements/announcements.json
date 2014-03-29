@@ -1,11 +1,11 @@
 {
 "response":[
   {"title":"University of Michigan Admissions",
-    "text":"Hi /device_name",
+    "text":"Hi /device_name. Are you enjoying MBus? Is there anything you want that would make it better? Tap this message and let me know.\n\nJonah.",
     "color":"f0ad4e",
     "background_color": "fcf8e3",
     "type":"personal",
-    "action":"url",
-    "action_destination": "http://jonahgrant.com",
+    "action":"email",
+    "action_destination": "jonah@jonahgrant.com",
     "action_body": ""}]
 }
