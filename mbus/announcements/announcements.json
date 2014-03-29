@@ -1,7 +1,7 @@
 {
 "response":[
   {"title":"University of Michigan Admissions",
-    "text":"Hi /device_name. Is there anything you want in MBus that would make it better? Tap this message and let me know.\n\n- Jonah.",
+    "text":"Hi /device_name. Is there anything you want in MBus that would make it better? Tap this message and let me know!\n\n- Jonah.",
     "color":"f0ad4e",
     "background_color": "fcf8e3",
     "type":"personal",
@@ -19,7 +19,7 @@
     "action":"none",
     "action_destination": "",
     "action_body": "",
-    "minimum_version": "1.4",
-    "maximum_version": "1.4",
+    "minimum_version": "1.3",
+    "maximum_version": "1.3",
   "tag": "v1.4_only_test"}]
 }
