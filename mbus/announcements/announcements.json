@@ -10,5 +10,17 @@
     "action_body": "",
     "minimum_version": "",
     "maximum_version": "",
-    "tag": "app_suggestion"}]
+    "tag": "app_suggestion"},
+    {
+    "title":"1.4",
+    "text":"Thanks for downloading version 1.4. This update improves a lot of things, including:\n• More accessible announcements\n• Performance improvements\n• You can now tap on a stop when viewing a route to see the stop's information\n• When choosing to be notified when a bus is arriving at your stop, you can now decide how many minutes before it arrives that you want to be notified\n• Many more smaller improvements and bug fixes!",
+    "color":"5bcaf9",
+    "background_color":"ecf9ff",
+    "action":"none",
+    "action_destination":"",
+    "action_body":"",
+    "minimum_version":"1.4",
+    "maximum_version":"1.4",
+    "tag":"v1.4_update"
+    }]
 }
