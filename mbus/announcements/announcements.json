@@ -1,7 +1,7 @@
 {
 "response":[
   {"title":"Suggestions",
-    "text":"Hi /device_name. Is there anything you want in MBus that would make it better? Tap this message and let me know!\n\n- Jonah.",
+    "text":"Hi /device_name. Is there anything you want in MBus that would make it better? Tap this message and let me know!\n\n- Jonah Grant, Developer of MBus.",
     "color":"f0ad4e",
     "background_color": "fcf8e3",
     "type":"personal",
