@@ -1,0 +1,97 @@
+<style>
+
+html {
+	width: auto !important;
+	overflow-x: hidden !important;
+  font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, sans-serif;
+  color: #898989;
+  line-height: 1.75;
+  -webkit-font-smoothing: antialiased; }
+  @media only screen and (max-width: 1023px) {
+    html {
+      font-size: 85%; } }
+
+body {
+	width: auto !important;
+	overflow-x: hidden !important;
+}
+
+#header {
+	height: 100%;
+background-image: url(images/backgrounds/header_background.png);
+background-size: cover;
+background-repeat: no-repeat;
+}
+
+#header #sig-mobile {
+	text-align: center;
+	padding: 40px;
+}
+
+#header #sig-desktop {
+	text-align: center;
+	padding: 120px;
+}
+
+#section-header {
+  	border-top: 1px solid #e6e6e6;
+	text-align: center;
+	padding: 15px;
+	color: #898989;
+	line-height: 1.75;
+}
+
+/* START BELLY */
+
+#belly-desktop {
+	height: 500px;
+	background-color: #33a9e0;
+	background-image: url(images/belly-screenshot-bg@2x.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+#belly-desktop #logo {
+	text-align: center;
+	padding-top: 60px;
+	padding-left: 15%;
+}
+
+#belly-desktop #title {
+	padding-top: 8%;
+	padding-left: 10%;
+	color: white;
+}
+
+#belly-desktop #bio {
+	padding-left: 10%;
+	color: white;
+	padding-top: 2%;
+	line-height: 2.2;
+}
+
+#belly-mobile {
+	height: 100%;
+	background-color: #33a9e0;
+	background: url(images/belly-bg.png);
+	text-align: center;
+}
+
+#belly-mobile #logo {
+  margin-left: 0px;
+  padding-top: 40px;
+}
+
+#belly-mobile #description {
+	color: #ffffff;
+	width: 100%;
+	padding-top: 20px;
+	padding-left: 30px;
+  	padding-right: 30px;
+	padding-bottom: 30px;
+ 
+}
+
+/* END BELLY */
+
+</style>
