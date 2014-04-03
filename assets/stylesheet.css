@@ -87,23 +87,47 @@ a:hover {
 
 /* START MODEST */
 
-#modest {
-	height: 100%;
+#modest-desktop {
+	height: 350px;
 	background-color: #000000;
-	text-align: center;
 	border-bottom: 1px solid #222222;
 }
 
-#modest #logo {
-	margin-left: 0px;
-	padding-top: 40px;
+#modest-desktop #logo {
+	padding-top: 80px;
+	padding-left: 10%;
+}
+
+#modest-desktop #title {
+	padding-top: 8%;
+	color: white;
+}
+
+#modest-desktop #description {
+	color: white;
+	padding-top: 5%;
+	padding-bottom: 7%;
+	line-height: 2.2;
+}
+
+#modest-mobile {
+	height: 100%;
+	background-color: #000000;
 	text-align: center;
 }
 
-#modest #description {
+#modest-mobile #logo {
+	margin-left: 0px;
+	padding-top: 40px;
+}
+
+#modest-mobile #description {
 	color: #ffffff;
 	width: 100%;
-	padding: 30px;
+	padding-top: 20px;
+	padding-left: 30px;
+  	padding-right: 30px;
+	padding-bottom: 30px;
 }
 
 /* END MODEST */
@@ -162,7 +186,7 @@ a:hover {
 /* START LIGHTBANK */
 
 #lightbank-desktop {
-	height: 400px;
+	height: 500px;
 	background-color: #f78316;
 	background-image: url(images/lightbank-bg-1.jpg);
 	background-size: cover;
@@ -220,7 +244,7 @@ a:hover {
 }
 
 #mbus-desktop #screenshots {
-	padding-left: 5%;
+	padding-left: 3%;
 	height: 50%;
 	width: 50%;
 }
@@ -256,7 +280,7 @@ a:hover {
 }
 
 #mbus-mobile {
-	height: 850px;
+	height: 100%;
 	background-color: #167efb;
 	text-align: center;
 }
@@ -273,11 +297,17 @@ a:hover {
 	padding-right: 50px;
 }
 
+#mbus-desktop #description a:hover {
+	color:#ffffff;
+	opacity: 0.5;
+	text-decoration: none;
+}
+
 #mbus-desktop #description a,a:link,a:visited {
 	font-weight: bold;
 	color: #ffffff;
 	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
-	font-size: 14px;
+	font-size: 14px;-moz-border-end-style
 	font-weight: bold;
 }
 
@@ -292,12 +322,6 @@ a:hover {
 #mbus-desktop #description #buttons a:hover {
 	color:#167efb;
 	opacity: 1;
-}
-
-#mbus-desktop #description a:hover {
-	color:#ffffff;
-	opacity: 0.5;
-	text-decoration: none;
 }
 
 /* END MBUS */
