@@ -282,7 +282,15 @@ a:hover {
 	padding-right: 50px;
 }
 
-#mbus-desktop,#mbus-mobile #description a,a:link,a:visited {
+#mbus-desktop #description a,a:link,a:visited {
+	font-weight: bold;
+	color: #ffffff;
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+#mbus-mobile #description a,a:link,a:visited {
 	font-weight: bold;
 	color: #ffffff;
 	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
