@@ -3,23 +3,15 @@
 html {
 	width: auto !important;
 	overflow-x: hidden !important;
-  font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, sans-serif;
-  color: #898989;
-  line-height: 1.75;
-  -webkit-font-smoothing: antialiased; }
-  @media (min-width: 768px) {
-    .row {
-     margin-right: 0; margin-left: 0;
-      }
-  }
-  @media only screen and (max-width: 1023px) {
-    html {
-      font-size: 85%; } }
+	font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, sans-serif;
+	color: #898989;
+	line-height: 1.75;
+	-webkit-font-smoothing: antialiased; 
+}
 
 .row {
- margin-right: 0; margin-left: 0;
-  }
-
+	margin-right: 0; margin-left: 0;
+}
 
 body {
 	width: auto !important;
@@ -273,7 +265,7 @@ a:hover {
 }
 
 #mbus-mobile {
-	height: 720px;
+	height: 740px;
 	background-color: #167efb;
 	text-align: center;
 }
