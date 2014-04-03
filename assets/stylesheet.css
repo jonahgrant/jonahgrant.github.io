@@ -236,11 +236,10 @@ a:hover {
 	font-weight: normal;
 }
 
-
 .btn-outline-inverse{
 	color:#fff;
 	background-color: transparent;
-	border-color: white
+	border-color: white;
 }
 
 .btn-outline-inverse:hover,.btn-outline-inverse:focus,.btn-outline-inverse:active{
@@ -248,7 +247,12 @@ a:hover {
 	text-shadow:none;
 	background-color:#fff;
 	border-color:#fff;
-	border-width
+	
+	-o-transition:0s;
+	-ms-transition:0s;
+	-moz-transition:0s;
+	-webkit-transition:0s;
+	transition:0s;
 }
 
 #mbus-mobile {
