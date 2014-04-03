@@ -5,7 +5,7 @@ html {
 	overflow-x: hidden !important;
   font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, sans-serif;
   color: #898989;
-  line-height: 1.75;
+  line-height: 20;
   -webkit-font-smoothing: antialiased; }
   @media only screen and (max-width: 1023px) {
     html {
@@ -17,7 +17,8 @@ body {
 }
 
 a:hover {
-  color:#828286;
+	color:#ffffff;
+	opacity: 0.5;
 }
 
 #header {
@@ -25,11 +26,6 @@ a:hover {
 	background-image: url(images/backgrounds/header_background.png);
 	background-size: cover;
 	background-repeat: no-repeat;
-}
-
-#header a:hover {
-	color:#ffffff;
-	opacity: 0.5;
 }
 
 #header #sig-mobile {
@@ -44,6 +40,7 @@ a:hover {
 
 #section-header {
   	border-top: 1px solid #e6e6e6;
+  	border-bottom: 1px solid #e6e6e6;
 	text-align: center;
 	padding: 15px;
 	color: #898989;
@@ -109,6 +106,47 @@ a:hover {
 	height: 700px;
 	background-color: #167efb;
 }
+
+#mbus-desktop #screenshots {
+	
+}
+
+#mbus-desktop #description {
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light"; 
+	font-size: 50px;
+	text-align: center;
+	font-weight: normal;
+}
+
+#mbus-mobile {
+	height: 720px;
+	background-color: #167efb;
+	text-align: center;
+}
+
+#mbus-mobile #screenshot {
+  padding-top: 30px;
+  height: 70%;
+}
+
+#mbus-mobile #description {
+  color: #ffffff;
+  width: 100%;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+
+#mbus-desktop,#mbus-mobile #description a,a:link,a:visited {
+font-weight: bold;
+  color: #ffffff;
+}
+
+#mbus-desktop #description a:hover {
+  color:#ffffff;
+  opacity: 0.5;
+}
+
 
 /* END MBUS */
 
