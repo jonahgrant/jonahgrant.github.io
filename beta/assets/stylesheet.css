@@ -64,7 +64,7 @@ a:hover {
 	
 }
 
-#personal-bio a:link, a:visited {
+#personal-bio a,a:link,a:visited {
 	color: #626264;
 	font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, sans-serif;
 	font-weight: bold;
