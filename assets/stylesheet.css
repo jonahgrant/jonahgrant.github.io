@@ -43,7 +43,7 @@ a:hover {
 
 #header #sig-desktop {
 	text-align: center;
-	padding: 200px;
+	padding: 320px;
 }
 
 #section-header {
@@ -305,7 +305,6 @@ a:hover {
 }
 
 #mbus-desktop #description a,a:link,a:visited {
-	font-weight: bold;
 	color: #ffffff;
 	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
 	font-size: 14px;-moz-border-end-style
