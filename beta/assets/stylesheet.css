@@ -47,6 +47,29 @@ a:hover {
 	line-height: 1.75;
 }
 
+/* START MODEST */
+
+#modest {
+	height: 100%;
+	background-color: #000000;
+	text-align: center;
+	border-bottom: 1px solid #222222;
+}
+
+#modest #logo {
+	margin-left: 0px;
+	padding-top: 40px;
+	text-align: center;
+}
+
+#modest #description {
+	color: #ffffff;
+	width: 100%;
+	padding: 30px;
+}
+
+/* END MODEST */
+
 /* START BELLY */
 
 #belly-desktop {
