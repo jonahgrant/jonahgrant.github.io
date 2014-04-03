@@ -8,11 +8,18 @@ html {
   line-height: 1.75;
   -webkit-font-smoothing: antialiased; }
   @media (min-width: 768px) {
-    .row { margin-right: 0; margin-left: 0; }
+    .row {
+     margin-right: 0; margin-left: 0;
+      }
   }
   @media only screen and (max-width: 1023px) {
     html {
       font-size: 85%; } }
+
+.row {
+ margin-right: 0; margin-left: 0;
+  }
+
 
 body {
 	width: auto !important;
