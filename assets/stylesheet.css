@@ -140,6 +140,7 @@ a:hover {
 	background-image: url(images/belly-screenshot-bg@2x.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
+	border-bottom: 1px solid #371b08;
 }
 
 #belly-desktop #logo {
