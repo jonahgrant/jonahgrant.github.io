@@ -26,16 +26,6 @@
 	  ga('send', 'event', 'mbus', 'click', 'app-store-button');
 	});
 	
-	
-	/**
-	 * Utility to wrap the different behaviors between W3C-compliant browsers
-	 * and IE when adding event handlers.
-	 *
-	 * @param {Object} element Object on which to attach the event listener.
-	 * @param {string} type A string representing the event type to listen for
-	 *     (e.g. load, click, etc.).
-	 * @param {function()} callback The function that receives the notification.
-	 */
 	function addListener(element, type, callback) {
 	 if (element.addEventListener) element.addEventListener(type, callback);
 	 else if (element.attachEvent) element.attachEvent('on' + type, callback);
@@ -223,8 +213,8 @@
 					<br/>
 					<br/>
 					<div id="buttons">
-					<a href="https://itunes.apple.com/us/app/mbus-bus-info-for-university/id777435172?mt=8" onclick="ga('send', 'event', 'mbus', 'clicked', 'app-store-button');" class="btn btn-outline-inverse btn-lg" id="mbus-app-store-button">
-					  Download on iTunes
+					<a href="https://itunes.apple.com/us/app/mbus-bus-info-for-university/id777435172?mt=8" onclick="ga('send', 'event', 'mbus', 'clicked', 'app-store-button');" class="btn btn-outline-inverse btn-lg"><button id="mbus-app-store-button">
+					  Download on iTunes</button>
 					</a>
 					&nbsp;&nbsp;
 					<a href="https://github.com/jonahgrant/mbus" onclick="ga('send', 'event', 'mbus', 'clicked', 'github-button');" class="btn btn-outline-inverse btn-lg">
