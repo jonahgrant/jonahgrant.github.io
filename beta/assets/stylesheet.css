@@ -285,8 +285,15 @@ a:hover {
 #mbus-desktop,#mbus-mobile #description a,a:link,a:visited {
 	font-weight: bold;
 	color: #ffffff;
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-size: 14px;
+	font-weight: bold;
 }
 
+#mbus-desktop #description #buttons a:hover {
+	color:#167efb;
+	opacity: 1;
+}
 
 #mbus-desktop #description a:hover {
 	color:#ffffff;
