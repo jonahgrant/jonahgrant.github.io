@@ -16,16 +16,20 @@ body {
 	overflow-x: hidden !important;
 }
 
+a:hover {
+  color:#828286;
+}
+
 #header {
 	height: 100%;
-background-image: url(images/backgrounds/header_background.png);
-background-size: cover;
-background-repeat: no-repeat;
+	background-image: url(images/backgrounds/header_background.png);
+	background-size: cover;
+	background-repeat: no-repeat;
 }
 
 #header a:hover {
-  color:#ffffff;
-  opacity: 0.5;
+	color:#ffffff;
+	opacity: 0.5;
 }
 
 #header #sig-mobile {
@@ -98,5 +102,14 @@ background-repeat: no-repeat;
 }
 
 /* END BELLY */
+
+/* START MBUS */
+
+#mbus-desktop {
+	height: 700px;
+	background-color: #167efb;
+}
+
+/* END MBUS */
 
 </style>
