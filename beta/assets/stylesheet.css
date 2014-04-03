@@ -5,7 +5,7 @@ html {
 	overflow-x: hidden !important;
   font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, sans-serif;
   color: #898989;
-  line-height: 20;
+  line-height: 1.75;
   -webkit-font-smoothing: antialiased; }
   @media only screen and (max-width: 1023px) {
     html {
@@ -112,10 +112,9 @@ a:hover {
 }
 
 #mbus-desktop #description {
-	font-family: "HelveticaNeue-Light", "Helvetica Neue Light"; 
-	font-size: 50px;
+	padding-top: 10px;
+	padding-left: 60px;
 	text-align: center;
-	font-weight: normal;
 }
 
 #mbus-mobile {
