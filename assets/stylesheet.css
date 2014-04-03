@@ -88,13 +88,13 @@ a:hover {
 /* START MODEST */
 
 #modest-desktop {
-	height: 350px;
+	height: 400px;
 	background-color: #000000;
 	border-bottom: 1px solid #222222;
 }
 
 #modest-desktop #logo {
-	padding-top: 80px;
+	padding-top: 20%;
 	padding-left: 10%;
 }
 
