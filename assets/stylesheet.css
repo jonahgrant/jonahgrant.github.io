@@ -31,7 +31,7 @@ a:hover {
 
 #header {
 	height: 100%;
-	background-image: url(images/backgrounds/header_background.png);
+	background-image: url(images/backgrounds/header.png);
 	background-size: cover;
 	background-repeat: no-repeat;
 }
