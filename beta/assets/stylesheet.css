@@ -102,16 +102,15 @@ a:hover {
 /* START MBUS */
 
 #mbus-desktop {
-	height: 700px;
+	position: relative;
+	height: 0;
+	padding-bottom: 40%;
 	background-color: #167efb;
 }
 
 #mbus-desktop #screenshots {
-	height: 700px;
-	background-image: url(images/mbus-screenshots.png);
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-size: 620px;
+	height: 50%;
+	width: 40%;
 }
 
 #mbus-desktop #description {
