@@ -23,6 +23,11 @@ background-size: cover;
 background-repeat: no-repeat;
 }
 
+#header a:hover {
+  color:#ffffff;
+  opacity: 0.5;
+}
+
 #header #sig-mobile {
 	text-align: center;
 	padding: 40px;
