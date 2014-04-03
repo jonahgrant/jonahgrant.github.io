@@ -109,14 +109,15 @@ a:hover {
 }
 
 #mbus-desktop #screenshots {
+	padding-left: 60px;
 	height: 50%;
-	width: 40%;
+	width: 43%;
 }
 
 #mbus-desktop #description {
 	font: 12px/18px "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
 	line-height: 1.6316;
-	font-size: 1.1875em;
+	font-size: 1.0175em;
 	margin-bottom: 30px;
 	padding-top: 30px;
 	padding-left: 60px;
