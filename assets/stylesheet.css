@@ -237,19 +237,7 @@ a:hover {
 	font-weight: normal;
 }
 
-.btn-outline{
-	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
-	font-size: 14px;
-	color: white;
-	background-color:transparent;
-	border-color:#563d7c
-}
 
-.btn-outline:hover,.btn-outline:focus,.btn-outline:active{
-	color:#fff;
-	background-color:#563d7c;
-	border-color:#563d7c
-}
 .btn-outline-inverse{
 	color:#fff;
 	background-color: transparent;
