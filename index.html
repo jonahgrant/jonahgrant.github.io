@@ -19,18 +19,6 @@
 	  ga('send', 'pageview');
 	
 	</script>
-	
-	<script type="text/javascript">
-	var downloadLink = document.getElementById('mbus-app-store-button');
-	addListener(downloadLink, 'click', function() {
-	  ga('send', 'event', 'mbus', 'click', 'app-store-button');
-	});
-	
-	function addListener(element, type, callback) {
-	 if (element.addEventListener) element.addEventListener(type, callback);
-	 else if (element.attachEvent) element.attachEvent('on' + type, callback);
-	}
-	</script>
 </head>
 	
 <body>
@@ -213,8 +201,8 @@
 					<br/>
 					<br/>
 					<div id="buttons">
-					<a href="https://itunes.apple.com/us/app/mbus-bus-info-for-university/id777435172?mt=8" onclick="ga('send', 'event', 'mbus', 'clicked', 'app-store-button');" class="btn btn-outline-inverse btn-lg"><button id="mbus-app-store-button">
-					  Download on iTunes</button>
+					<a href="https://itunes.apple.com/us/app/mbus-bus-info-for-university/id777435172?mt=8" onclick="ga('send', 'event', 'mbus', 'clicked', 'app-store-button');" class="btn btn-outline-inverse btn-lg">
+					  Download on iTunes
 					</a>
 					&nbsp;&nbsp;
 					<a href="https://github.com/jonahgrant/mbus" onclick="ga('send', 'event', 'mbus', 'clicked', 'github-button');" class="btn btn-outline-inverse btn-lg">
