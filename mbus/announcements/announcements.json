@@ -1,3 +1,15 @@
 {
-"response":[]
+"response":[
+  {"title":"Review App",
+    "text":"Hey /device_name. If you've been enjoying MBus, I would greatly appreciate an awesome review on the App Store.  Tap this message to open MBus in the App Store to review it.  Thank you!",
+  "color":"f0ad4e",
+  "background_color":"fcf8e3",
+  "type":"personal",
+  "action":"url",
+  "action_destination":"https://itunes.apple.com/us/app/mbus-bus-info-for-university/id777435172?mt=8",
+  "action_body":"",
+  "minimum_version":"",
+  "maxiumum_version":"",
+  "tag":"review_app"}
+]
 }
