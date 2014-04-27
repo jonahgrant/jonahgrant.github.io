@@ -6,7 +6,7 @@ html {
 	font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, sans-serif;
 	color: #898989;
 	line-height: 1.75;
-	-webkit-font-smoothing: antialiased; 
+	-webkit-font-smoothing: antialiased;
 }
 
 .row {
@@ -18,7 +18,7 @@ body {
 	overflow-x: hidden !important;
 }
 
-a:hover {	
+a:hover {
 	-o-transition:.3s;
 	-ms-transition:.3s;
 	-moz-transition:.3s;
@@ -63,7 +63,7 @@ a:hover {
 	padding: 50px;
 	font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, sans-serif;
 	  color: #898989;
-	
+
 }
 
 #personal-bio a,a:link,a:visited {
@@ -80,10 +80,57 @@ a:hover {
 	transition:.3s;
 	opacity: 0.5;
 	text-decoration: none;
-	
+
 }
 
 /* END DESCRIPTION */
+
+/* START TWITTER */
+
+#twitter-desktop {
+	height: 400px;
+	background-color: #55ACEE;
+	border-bottom: 1px solid #222222;
+}
+
+#twitter-desktop #logo {
+	padding-top: 20%;
+	padding-left: 10%;
+}
+
+#twitter-desktop #title {
+	padding-top: 8%;
+	color: white;
+}
+
+#twitter-desktop #description {
+	color: white;
+	padding-top: 5%;
+	padding-bottom: 7%;
+	line-height: 2.2;
+}
+
+#twitter-mobile {
+	height: 100%;
+	background-color: #55ACEE;
+	text-align: center;
+}
+
+#twitter-mobile #logo {
+	margin-left: 0px;
+	padding-top: 40px;
+}
+
+#twitter-mobile #description {
+	color: #ffffff;
+	width: 100%;
+	padding-top: 20px;
+	padding-left: 30px;
+  	padding-right: 30px;
+	padding-bottom: 30px;
+}
+
+/* END TWITTER */
 
 /* START MODEST */
 
@@ -272,7 +319,7 @@ a:hover {
 	text-shadow:none;
 	background-color:#fff;
 	border-color:#fff;
-	
+
 	-o-transition:0s;
 	-ms-transition:0s;
 	-moz-transition:0s;
