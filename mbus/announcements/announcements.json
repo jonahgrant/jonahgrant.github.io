@@ -1,15 +1,15 @@
 {
 "response":[
-  {"title":"Review App",
-    "text":"Hey /device_name. If you've been enjoying MBus, I would greatly appreciate an awesome review on the App Store.  Tap this message to open MBus in the App Store to review it.  Thank you!",
+  {"title":"MBus's future",
+    "text":"Hey /device_name.\n\nI made MBus as a side project when I was applying to Michigan last fall.  Unfortunately, I was rejected off the waitlist. As I'll be at another school, it's not likely I'll keep building MBus.  If there is anyone interested in picking up ownership of the project, tap this message and we'll be in touch!\n\nThanks,\nJonah Grant (@jonah).",
   "color":"f0ad4e",
   "background_color":"fcf8e3",
   "type":"personal",
-  "action":"url",
-  "action_destination":"https://itunes.apple.com/us/app/mbus-bus-info-for-university/id777435172?mt=8",
+  "action":"email",
+  "action_destination":"jonah@jonahgrant.com",
   "action_body":"",
   "minimum_version":"",
   "maxiumum_version":"",
-  "tag":"review_app"}
+  "tag":"mbus_future"}
 ]
 }
