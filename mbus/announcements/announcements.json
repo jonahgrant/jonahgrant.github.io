@@ -6,7 +6,7 @@
   "background_color":"fcf8e3",
   "type":"personal",
   "action":"url",
-  "action_destination":"twitter://user?screen_name=jonah",
+  "action_destination":"http://twitter.com/jonah",
   "action_body":"",
   "minimum_version":"",
   "maxiumum_version":"",
