@@ -1,3 +1,15 @@
 {
-"response":[ ]
+"response":[
+  {"title":"RIP MBus",
+    "text":"Hey MBus user, it appears U-M changed their Magic Bus website to be run by a private company. Because they did this, MBus cannot work anymore. Tap this and follow me (@jonah) on Twitter for updates about MBus and it's future.",
+  "color":"f0ad4e",
+  "background_color":"fcf8e3",
+  "type":"personal",
+  "action":"url",
+  "action_destination":"twitter://user?screen_name=jonah",
+  "action_body":"",
+  "minimum_version":"",
+  "maxiumum_version":"",
+  "tag":"rip_mbus"}
+]
 }
