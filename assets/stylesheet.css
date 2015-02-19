@@ -329,6 +329,8 @@ a:hover {
 	height: 0;
 	padding-bottom: 50%;
 	background-color: #167efb;
+	border-bottom: 1px solid #155fed;
+
 }
 
 #mbus-desktop #screenshots {
@@ -376,6 +378,7 @@ a:hover {
 	height: 100%;
 	background-color: #167efb;
 	text-align: center;
+		border-bottom: 1px solid #155fed;
 }
 
 #mbus-mobile #screenshot {
@@ -412,6 +415,103 @@ a:hover {
 }
 
 #mbus-desktop #description #buttons a:hover {
+	color:#167efb;
+	opacity: 1;
+}
+
+/* END MBUS */
+
+/* START WIZZY */
+
+#wizzy-desktop {
+	position: relative;
+	height: 0;
+	padding-bottom: 50%;
+	background-color: #3572ff;
+}
+
+#wizzy-desktop #screenshots {
+	height: 50%;
+	width: 48%;
+	margin-left: -20px;
+	padding-top: 4.5%;
+}
+
+#wizzy-desktop #description {
+	font: 12px/18px "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+	line-height: 1.6316;
+	font-size: 1.0175em;
+	padding-top: 3%;
+	padding-right: 2%;
+	text-align: left;
+	color: white;
+	font-weight: normal;
+}
+
+#wizzy-desktop #footnote {
+	font: 12px/18px "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+	
+}
+
+.btn-outline-inverse{
+	color:#fff;
+	background-color: transparent;
+	border-color: white;
+}
+
+.btn-outline-inverse:hover,.btn-outline-inverse:focus,.btn-outline-inverse:active{
+	color:#167efb;
+	text-shadow:none;
+	background-color:#fff;
+	border-color:#fff;
+
+	-o-transition:0s;
+	-ms-transition:0s;
+	-moz-transition:0s;
+	-webkit-transition:0s;
+	transition:0s;
+}
+
+#wizzy-mobile {
+	height: 100%;
+	background-color: #3572ff;
+	text-align: center;
+}
+
+#wizzy-mobile #screenshot {
+	padding-top: 30px;
+	height: 70%;
+}
+
+#wizzy-mobile #description {
+	color: #ffffff;
+	width: 100%;
+	padding-left: 50px;
+	padding-right: 50px;
+}
+
+#wizzy-desktop #description a:hover {
+	color:#ffffff;
+	opacity: 0.5;
+	text-decoration: none;
+}
+
+#wizzy-desktop #description a,a:link,a:visited {
+	color: #ffffff;
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-size: 14px;-moz-border-end-style
+	font-weight: bold;
+}
+
+#wizzy-mobile #description a,a:link,a:visited {
+	font-weight: bold;
+	color: #ffffff;
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+#wizzy-desktop #description #buttons a:hover {
 	color:#167efb;
 	opacity: 1;
 }
