@@ -447,7 +447,8 @@ a:hover {
 }
 
 #wizzy-desktop #description #title {
-   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+font-family: 'Helvetica Neue';
+font-weight: light;
 	font-size: 2.0175em;
 }
 
