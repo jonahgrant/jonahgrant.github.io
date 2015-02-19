@@ -126,7 +126,7 @@ a:hover {
 /* START TWITTER */
 
 #twitter-desktop {
-	height: 500px;
+	height: 100%;
 	background-color: #55ACEE;
 	border-bottom: 1px solid #222222;
 }
@@ -144,7 +144,7 @@ a:hover {
 #twitter-desktop #description {
 	color: white;
 	padding-top: 5%;
-	padding-bottom: 7%;
+	padding-bottom: 20%;
 	line-height: 2.2;
 }
 
@@ -173,13 +173,13 @@ a:hover {
 /* START MODEST */
 
 #modest-desktop {
-	height: 500px;
+	height: 100%;
 	background-color: #000000;
 	border-bottom: 1px solid #222222;
 }
 
 #modest-desktop #logo {
-	padding-top: 20%;
+	padding-top: 25%;
 	padding-left: 10%;
 }
 
@@ -191,8 +191,8 @@ a:hover {
 #modest-desktop #description {
 	color: white;
 	padding-top: 5%;
-	padding-bottom: 7%;
 	line-height: 2.2;
+	padding-bottom: 25%;
 }
 
 #modest-mobile {
@@ -203,7 +203,7 @@ a:hover {
 
 #modest-mobile #logo {
 	margin-left: 0px;
-	padding-top: 40px;
+	padding-top: 10%;
 }
 
 #modest-mobile #description {
@@ -212,7 +212,7 @@ a:hover {
 	padding-top: 20px;
 	padding-left: 30px;
   	padding-right: 30px;
-	padding-bottom: 30px;
+	padding-bottom: 10%;
 }
 
 /* END MODEST */
@@ -220,16 +220,16 @@ a:hover {
 /* START BELLY */
 
 #belly-desktop {
-	height: 500px;
+	height: 100%;
 	background-color: #33a9e0;
-	background-image: url(images/belly-screenshot-bg-2.jpg);
+	background-image: url(images/belly-bg-1.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
 	border-bottom: 1px solid #371b08;
 }
 
 #belly-desktop #logo {
-	padding-top: 60px;
+	padding-top: 20%;
 	padding-left: 10%;
 }
 
@@ -244,18 +244,19 @@ a:hover {
 	color: white;
 	padding-top: 2%;
 	line-height: 2.2;
+	padding-bottom: 20%;
 }
 
 #belly-mobile {
 	height: 100%;
 	background-color: #33a9e0;
-	background: url(images/belly-bg.png);
+	background: url(images/belly-bg-6.png);
 	text-align: center;
 }
 
 #belly-mobile #logo {
 	margin-left: 0px;
-	padding-top: 40px;
+	padding-top: 10%;
 }
 
 #belly-mobile #description {
@@ -264,7 +265,7 @@ a:hover {
 	padding-top: 20px;
 	padding-left: 30px;
   	padding-right: 30px;
-	padding-bottom: 30px;
+	padding-bottom: 8%;
 }
 
 /* END BELLY */
@@ -272,15 +273,15 @@ a:hover {
 /* START LIGHTBANK */
 
 #lightbank-desktop {
-	height: 500px;
+	height: 100%;
 	background-color: #f78316;
-	background-image: url(images/lightbank-bg-1.jpg);
+	background-image: url(images/lightbank-bg-4.png);
 	background-size: cover;
 	background-repeat: no-repeat;
 }
 
 #lightbank-desktop #logo {
-	padding-top: 60px;
+	padding-top: 20%;
 	padding-left: 10%;
 }
 
@@ -295,12 +296,13 @@ a:hover {
 	color: white;
 	padding-top: 2%;
 	line-height: 2.2;
+	padding-bottom: 20%;
 }
 
 #lightbank-mobile {
 	height: 100%;
 	background-color: #33a9e0;
-	background: url(images/lightbank-bg.png);
+	background: url(images/lightbank-bg-4.png);
 	text-align: center;
 }
 
@@ -344,6 +346,11 @@ a:hover {
 	text-align: left;
 	color: white;
 	font-weight: normal;
+}
+
+#mbus-desktop #footnote {
+	font: 12px/18px "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+	
 }
 
 .btn-outline-inverse{
