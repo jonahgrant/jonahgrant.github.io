@@ -31,7 +31,15 @@ body {
 	margin: 0;
 	padding: 0;
 	color: #fff;
-	background: #21272f;
+	
+	background: -webkit-linear-gradient(#39c5df, #449e9b); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(#39c5df, #449e9b); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(#39c5df, #449e9b); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(#39c5df, #449e9b); /* Standard syntax */
+	
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	
 	font-family: 'Helvetica Neue', Helvetica, sans-serif;
 	font-size: 100%;
 	font-weight: 400;
@@ -70,7 +78,7 @@ p {
 	display: block;
 	clear: both;
 	width: 100%;
-	height: 2px;
+	height: 1px;
 	margin: 15px 0;
 	background: rgba(255, 255, 255, 0.1);
 }
@@ -86,7 +94,7 @@ p {
 	text-transform: uppercase;
 	color: rgba(255, 255, 255, 0.5);
 	border: 2px solid rgba(255, 255, 255, 0.6);
-	border-radius: 3px;
+	border-radius: 7px;
 	font-size: 15px;
 	font-weight: 500;
 }
@@ -192,8 +200,9 @@ p {
 .iphone {
 	position: relative;
 	max-width: 300px;
-	height: 300px;
+	height: 338px;
 	margin: 0 auto;
+	padding-top: 50px;
 	padding-bottom: 50px;
 }
 
@@ -201,20 +210,10 @@ p {
 	.iphone {
 		float: right;
 		width: 100%;
-		max-width: 42%;
+		max-width: 57%;
 		height: 100%;
 		text-align: right;
 	}
-}
-
-.iphone-screenshot {
-	position: relative;
-	z-index: 100;
-	overflow: hidden;
-	width: 86.5%;
-	height: 0;
-	margin: 0 auto;
-	padding-bottom: 182%;
 }
 
 @media only screen and (min-width: 767px) {
@@ -231,7 +230,7 @@ p {
 }
 
 .iphone-mask {
-	position: absolute;
+	position: relative;
 	z-index: 10;
 	top: 0;
 	left: 0;
