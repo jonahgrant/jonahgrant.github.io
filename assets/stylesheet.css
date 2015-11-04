@@ -154,6 +154,9 @@ a:hover {
     height: 100%;
     background-color: #329bbe;
     text-align: center;
+    background-image: url(images/periscope-bg-2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 #periscope-mobile #logo {
