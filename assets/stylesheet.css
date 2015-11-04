@@ -1,85 +1,85 @@
 <style>
 
 html {
-	width: auto !important;
-	overflow-x: hidden !important;
-	font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, sans-serif;
-	color: #898989;
-	line-height: 1.75;
-	-webkit-font-smoothing: antialiased;
+    width: auto !important;
+    overflow-x: hidden !important;
+    font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, sans-serif;
+    color: #898989;
+    line-height: 1.75;
+    -webkit-font-smoothing: antialiased;
 }
 
 .row {
-	margin-right: 0; margin-left: 0;
+    margin-right: 0; margin-left: 0;
 }
 
 body {
-	width: auto !important;
-	overflow-x: hidden !important;
+    width: auto !important;
+    overflow-x: hidden !important;
 }
 
 a:hover {
-	-o-transition:.3s;
-	-ms-transition:.3s;
-	-moz-transition:.3s;
-	-webkit-transition:.3s;
-	transition:.3s;
-	color:#ffffff;
-	opacity: 0.5;
-	text-decoration: none;
+    -o-transition:.3s;
+    -ms-transition:.3s;
+    -moz-transition:.3s;
+    -webkit-transition:.3s;
+    transition:.3s;
+    color:#ffffff;
+    opacity: 0.5;
+    text-decoration: none;
 }
 
 #header {
-	height: 100%;
-	background-image: url(images/backgrounds/header.png);
-	background-size: cover;
-	background-repeat: no-repeat;
+    height: 100%;
+    background-image: url(images/backgrounds/header.png);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 #header #sig-mobile {
-	text-align: center;
-	padding: 40px;
+    text-align: center;
+    padding: 40px;
 }
 
 #header #sig-desktop {
-	text-align: center;
-	padding: 100px;
+    text-align: center;
+    padding: 100px;
 }
 
 #section-header {
-  	border-top: 1px solid #e6e6e6;
-  	border-bottom: 1px solid #e6e6e6;
-	text-align: center;
-	padding: 20px;
-	color: #898989;
-	line-height: 1.75;
+    border-top: 1px solid #e6e6e6;
+    border-bottom: 1px solid #e6e6e6;
+    text-align: center;
+    padding: 20px;
+    color: #898989;
+    line-height: 1.75;
 }
 
 /* START DESCRIPTION */
 
 #personal-bio {
-	background-color: #faf8f8;
-	text-align: center;
-	padding: 50px;
-	font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, sans-serif;
-	  color: #898989;
+    background-color: #faf8f8;
+    text-align: center;
+    padding: 50px;
+    font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, sans-serif;
+    color: #898989;
 
 }
 
 #personal-bio a,a:link,a:visited {
-	color: #626264;
-	font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, sans-serif;
-	font-weight: bold;
+    color: #626264;
+    font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, sans-serif;
+    font-weight: bold;
 }
 
 #personal-bio a:hover {
-	-o-transition:.3s;
-	-ms-transition:.3s;
-	-moz-transition:.3s;
-	-webkit-transition:.3s;
-	transition:.3s;
-	opacity: 0.5;
-	text-decoration: none;
+    -o-transition:.3s;
+    -ms-transition:.3s;
+    -moz-transition:.3s;
+    -webkit-transition:.3s;
+    transition:.3s;
+    opacity: 0.5;
+    text-decoration: none;
 
 }
 
@@ -88,84 +88,134 @@ a:hover {
 /* START ABOUT */
 
 #about-desktop {
-	height: 470px;
-	background-color: #667c86;
-	color: white;
+    height: 470px;
+    background-color: #667c86;
+    color: white;
 }
 
 #about-desktop #content {
-	color: white;
-	padding-top: 5%;
-	padding-bottom: 7%;
-	padding-left: 5%;
+    color: white;
+    padding-top: 5%;
+    padding-bottom: 7%;
+    padding-left: 5%;
 }
 
 #about-mobile {
-	height: 100%;
-	background-color: #55ACEE;
-	text-align: center;
+    height: 100%;
+    background-color: #55ACEE;
+    text-align: center;
 }
 
 #about-mobile #logo {
-	margin-left: 0px;
-	padding-top: 40px;
+    margin-left: 0px;
+    padding-top: 40px;
 }
 
 #about-mobile #description {
-	color: #ffffff;
-	width: 100%;
-	padding-top: 20px;
-	padding-left: 30px;
-  	padding-right: 30px;
-	padding-bottom: 30px;
+    color: #ffffff;
+    width: 100%;
+    padding-top: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
 }
 
 /* END ABOUT */
+
+/* START PERISCOPE */
+
+#periscope-desktop {
+    height: 100%;
+    background-color: #329bbe;
+    border-bottom: 1px solid #1d6b8c;
+    background-image: url(images/periscope-bg-2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#periscope-desktop #logo {
+    padding-top: 20%;
+    padding-left: 10%;
+}
+
+#periscope-desktop #title {
+    padding-top: 8%;
+    color: white;
+}
+
+#periscope-desktop #description {
+    color: white;
+    padding-top: 5%;
+    padding-bottom: 20%;
+    line-height: 2.2;
+}
+
+#periscope-mobile {
+    height: 100%;
+    background-color: #329bbe;
+    text-align: center;
+}
+
+#periscope-mobile #logo {
+    margin-left: 0px;
+    padding-top: 40px;
+}
+
+#periscope-mobile #description {
+    color: #ffffff;
+    width: 100%;
+    padding-top: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+}
+
+/* END PERISCOPE */
 
 
 /* START TWITTER */
 
 #twitter-desktop {
-	height: 100%;
-	background-color: #55ACEE;
-	border-bottom: 1px solid #222222;
+    height: 100%;
+    background-color: #55ACEE;
+    border-bottom: 1px solid #222222;
 }
 
 #twitter-desktop #logo {
-	padding-top: 20%;
-	padding-left: 10%;
+    padding-top: 20%;
+    padding-left: 10%;
 }
 
 #twitter-desktop #title {
-	padding-top: 8%;
-	color: white;
+    padding-top: 8%;
+    color: white;
 }
 
 #twitter-desktop #description {
-	color: white;
-	padding-top: 5%;
-	padding-bottom: 20%;
-	line-height: 2.2;
+    color: white;
+    padding-top: 5%;
+    padding-bottom: 20%;
+    line-height: 2.2;
 }
 
 #twitter-mobile {
-	height: 100%;
-	background-color: #55ACEE;
-	text-align: center;
+    height: 100%;
+    background-color: #55ACEE;
+    text-align: center;
 }
 
 #twitter-mobile #logo {
-	margin-left: 0px;
-	padding-top: 40px;
+    margin-left: 0px;
+    padding-top: 40px;
 }
 
 #twitter-mobile #description {
-	color: #ffffff;
-	width: 100%;
-	padding-top: 20px;
-	padding-left: 30px;
-  	padding-right: 30px;
-	padding-bottom: 30px;
+    color: #ffffff;
+    width: 100%;
+    padding-top: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
 }
 
 /* END TWITTER */
@@ -173,46 +223,46 @@ a:hover {
 /* START MODEST */
 
 #modest-desktop {
-	height: 100%;
-	background-color: #000000;
-	border-bottom: 1px solid #222222;
+    height: 100%;
+    background-color: #000000;
+    border-bottom: 1px solid #222222;
 }
 
 #modest-desktop #logo {
-	padding-top: 25%;
-	padding-left: 10%;
+    padding-top: 25%;
+    padding-left: 10%;
 }
 
 #modest-desktop #title {
-	padding-top: 8%;
-	color: white;
+    padding-top: 8%;
+    color: white;
 }
 
 #modest-desktop #description {
-	color: white;
-	padding-top: 5%;
-	line-height: 2.2;
-	padding-bottom: 25%;
+    color: white;
+    padding-top: 5%;
+    line-height: 2.2;
+    padding-bottom: 25%;
 }
 
 #modest-mobile {
-	height: 100%;
-	background-color: #000000;
-	text-align: center;
+    height: 100%;
+    background-color: #000000;
+    text-align: center;
 }
 
 #modest-mobile #logo {
-	margin-left: 0px;
-	padding-top: 15%;
+    margin-left: 0px;
+    padding-top: 15%;
 }
 
 #modest-mobile #description {
-	color: #ffffff;
-	width: 100%;
-	padding-top: 20px;
-	padding-left: 30px;
-  	padding-right: 30px;
-	padding-bottom: 12%;
+    color: #ffffff;
+    width: 100%;
+    padding-top: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 12%;
 }
 
 /* END MODEST */
@@ -220,52 +270,52 @@ a:hover {
 /* START BELLY */
 
 #belly-desktop {
-	height: 100%;
-	background-color: #33a9e0;
-	background-image: url(images/belly-bg-1.jpg);
-	background-size: cover;
-	background-repeat: no-repeat;
-	border-bottom: 1px solid #371b08;
+    height: 100%;
+    background-color: #33a9e0;
+    background-image: url(images/belly-bg-1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-bottom: 1px solid #371b08;
 }
 
 #belly-desktop #logo {
-	padding-top: 20%;
-	padding-left: 10%;
+    padding-top: 20%;
+    padding-left: 10%;
 }
 
 #belly-desktop #title {
-	padding-top: 8%;
-	padding-left: 10%;
-	color: white;
+    padding-top: 8%;
+    padding-left: 10%;
+    color: white;
 }
 
 #belly-desktop #bio {
-	padding-left: 10%;
-	color: white;
-	padding-top: 2%;
-	line-height: 2.2;
-	padding-bottom: 20%;
+    padding-left: 10%;
+    color: white;
+    padding-top: 2%;
+    line-height: 2.2;
+    padding-bottom: 20%;
 }
 
 #belly-mobile {
-	height: 100%;
-	background-color: #33a9e0;
-	background: url(images/belly-bg-6.png);
-	text-align: center;
+    height: 100%;
+    background-color: #33a9e0;
+    background: url(images/belly-bg-6.png);
+    text-align: center;
 }
 
 #belly-mobile #logo {
-	margin-left: 0px;
-	padding-top: 10%;
+    margin-left: 0px;
+    padding-top: 10%;
 }
 
 #belly-mobile #description {
-	color: #ffffff;
-	width: 100%;
-	padding-top: 20px;
-	padding-left: 30px;
-  	padding-right: 30px;
-	padding-bottom: 8%;
+    color: #ffffff;
+    width: 100%;
+    padding-top: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 8%;
 }
 
 /* END BELLY */
@@ -273,51 +323,51 @@ a:hover {
 /* START LIGHTBANK */
 
 #lightbank-desktop {
-	height: 100%;
-	background-color: #f78316;
-	background-image: url(images/lightbank-bg-4.png);
-	background-size: cover;
-	background-repeat: no-repeat;
+    height: 100%;
+    background-color: #f78316;
+    background-image: url(images/lightbank-bg-4.png);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 #lightbank-desktop #logo {
-	padding-top: 20%;
-	padding-left: 10%;
+    padding-top: 20%;
+    padding-left: 10%;
 }
 
 #lightbank-desktop #title {
-	padding-top: 5%;
-	padding-left: 10%;
-	color: white;
+    padding-top: 5%;
+    padding-left: 10%;
+    color: white;
 }
 
 #lightbank-desktop #bio {
-	padding-left: 10%;
-	color: white;
-	padding-top: 2%;
-	line-height: 2.2;
-	padding-bottom: 20%;
+    padding-left: 10%;
+    color: white;
+    padding-top: 2%;
+    line-height: 2.2;
+    padding-bottom: 20%;
 }
 
 #lightbank-mobile {
-	height: 100%;
-	background-color: #33a9e0;
-	background: url(images/lightbank-bg-4.png);
-	text-align: center;
+    height: 100%;
+    background-color: #33a9e0;
+    background: url(images/lightbank-bg-4.png);
+    text-align: center;
 }
 
 #lightbank-mobile #logo {
-	margin-left: 0px;
-	padding-top: 40px;
+    margin-left: 0px;
+    padding-top: 40px;
 }
 
 #lightbank-mobile #description {
-	color: #ffffff;
-	width: 100%;
-	padding-top: 20px;
-	padding-left: 30px;
-  	padding-right: 30px;
-	padding-bottom: 30px;
+    color: #ffffff;
+    width: 100%;
+    padding-top: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
 }
 
 /* END LIGHTBANK */
@@ -325,98 +375,98 @@ a:hover {
 /* START MBUS */
 
 #mbus-desktop {
-	position: relative;
-	height: 0;
-	padding-bottom: 50%;
-	background-color: #167efb;
-	border-bottom: 1px solid #155fed;
+    position: relative;
+    height: 0;
+    padding-bottom: 50%;
+    background-color: #167efb;
+    border-bottom: 1px solid #155fed;
 
 }
 
 #mbus-desktop #screenshots {
-	height: 50%;
-	width: 48%;
-	margin-left: -20px;
+    height: 50%;
+    width: 48%;
+    margin-left: -20px;
 }
 
 #mbus-desktop #description {
-	font: 12px/18px "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
-	line-height: 1.6316;
-	font-size: 1.0175em;
-	padding-top: 3%;
-	padding-right: 2%;
-	text-align: left;
-	color: white;
-	font-weight: normal;
+    font: 12px/18px "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+    line-height: 1.6316;
+    font-size: 1.0175em;
+    padding-top: 3%;
+    padding-right: 2%;
+    text-align: left;
+    color: white;
+    font-weight: normal;
 }
 
 #mbus-desktop #footnote {
-	font: 12px/18px "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
-	
+    font: 12px/18px "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+
 }
 
 .btn-outline-inverse{
-	color:#fff;
-	background-color: transparent;
-	border-color: white;
+    color:#fff;
+    background-color: transparent;
+    border-color: white;
 }
 
 .btn-outline-inverse:hover,.btn-outline-inverse:focus,.btn-outline-inverse:active{
-	color:#167efb;
-	text-shadow:none;
-	background-color:#fff;
-	border-color:#fff;
+    color:#167efb;
+    text-shadow:none;
+    background-color:#fff;
+    border-color:#fff;
 
-	-o-transition:0s;
-	-ms-transition:0s;
-	-moz-transition:0s;
-	-webkit-transition:0s;
-	transition:0s;
+    -o-transition:0s;
+    -ms-transition:0s;
+    -moz-transition:0s;
+    -webkit-transition:0s;
+    transition:0s;
 }
 
 #mbus-mobile {
-	height: 100%;
-	background-color: #167efb;
-	text-align: center;
-		border-bottom: 1px solid #155fed;
+    height: 100%;
+    background-color: #167efb;
+    text-align: center;
+    border-bottom: 1px solid #155fed;
 }
 
 #mbus-mobile #screenshot {
-	padding-top: 30px;
-	height: 70%;
+    padding-top: 30px;
+    height: 70%;
 }
 
 #mbus-mobile #description {
-	color: #ffffff;
-	width: 100%;
-	padding-left: 50px;
-	padding-right: 50px;
+    color: #ffffff;
+    width: 100%;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 
 #mbus-desktop #description a:hover {
-	color:#ffffff;
-	opacity: 0.5;
-	text-decoration: none;
+    color:#ffffff;
+    opacity: 0.5;
+    text-decoration: none;
 }
 
 #mbus-desktop #description a,a:link,a:visited {
-	color: #ffffff;
-	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
-	font-size: 14px;-moz-border-end-style
-	font-weight: bold;
+    color: #ffffff;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;-moz-border-end-style
+    font-weight: bold;
 }
 
 #mbus-mobile #description a,a:link,a:visited {
-	font-weight: bold;
-	color: #ffffff;
-	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
-	font-size: 14px;
-	font-weight: bold;
+    font-weight: bold;
+    color: #ffffff;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    font-weight: bold;
 }
 
 #mbus-desktop #description #buttons a:hover {
-	color:#167efb;
-	opacity: 1;
+    color:#167efb;
+    opacity: 1;
 }
 
 /* END MBUS */
@@ -424,100 +474,100 @@ a:hover {
 /* START WIZZY */
 
 #wizzy-desktop {
-	position: relative;
-	height: 100%;
-	padding-bottom: 5%;
-	background-color: #3572ff;
+    position: relative;
+    height: 100%;
+    padding-bottom: 5%;
+    background-color: #3572ff;
 }
 
 #wizzy-desktop #screenshots {
-	margin-left: -20px;
-	padding-top: 4.5%;
+    margin-left: -20px;
+    padding-top: 4.5%;
 }
 
 #wizzy-desktop #description {
-	font: 12px/18px "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
-	line-height: 1.6316;
-	font-size: 1.0175em;
-	padding-top: 3%;
-	padding-right: 2%;
-	text-align: left;
-	color: white;
-	font-weight: normal;
+    font: 12px/18px "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+    line-height: 1.6316;
+    font-size: 1.0175em;
+    padding-top: 3%;
+    padding-right: 2%;
+    text-align: left;
+    color: white;
+    font-weight: normal;
 }
 
 #wizzy-desktop #description #title {
-font-family: 'Helvetica Neue';
-font-weight: light;
-	font-size: 2.0175em;
+    font-family: 'Helvetica Neue';
+    font-weight: light;
+    font-size: 2.0175em;
 }
 
 #wizzy-desktop #footnote {
-	font: 12px/18px "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
-	
+    font: 12px/18px "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+
 }
 
 .btn-outline-inverse{
-	color:#fff;
-	background-color: transparent;
-	border-color: white;
+    color:#fff;
+    background-color: transparent;
+    border-color: white;
 }
 
 .btn-outline-inverse:hover,.btn-outline-inverse:focus,.btn-outline-inverse:active{
-	color:#167efb;
-	text-shadow:none;
-	background-color:#fff;
-	border-color:#fff;
+    color:#167efb;
+    text-shadow:none;
+    background-color:#fff;
+    border-color:#fff;
 
-	-o-transition:0s;
-	-ms-transition:0s;
-	-moz-transition:0s;
-	-webkit-transition:0s;
-	transition:0s;
+    -o-transition:0s;
+    -ms-transition:0s;
+    -moz-transition:0s;
+    -webkit-transition:0s;
+    transition:0s;
 }
 
 #wizzy-mobile {
-	height: 100%;
-	background-color: #3572ff;
-	text-align: center;
+    height: 100%;
+    background-color: #3572ff;
+    text-align: center;
 }
 
 #wizzy-mobile #screenshot {
-	padding-top: 30px;
-	height: 70%;
+    padding-top: 30px;
+    height: 70%;
 }
 
 #wizzy-mobile #description {
-	color: #ffffff;
-	width: 100%;
-	padding-left: 50px;
-	padding-right: 50px;
+    color: #ffffff;
+    width: 100%;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 
 #wizzy-desktop #description a:hover {
-	color:#ffffff;
-	opacity: 0.5;
-	text-decoration: none;
+    color:#ffffff;
+    opacity: 0.5;
+    text-decoration: none;
 }
 
 #wizzy-desktop #description a,a:link,a:visited {
-	color: #ffffff;
-	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
-	font-size: 14px;-moz-border-end-style
-	font-weight: bold;
+    color: #ffffff;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;-moz-border-end-style
+    font-weight: bold;
 }
 
 #wizzy-mobile #description a,a:link,a:visited {
-	font-weight: bold;
-	color: #ffffff;
-	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
-	font-size: 14px;
-	font-weight: bold;
+    font-weight: bold;
+    color: #ffffff;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    font-weight: bold;
 }
 
 #wizzy-desktop #description #buttons a:hover {
-	color:#167efb;
-	opacity: 1;
+    color:#167efb;
+    opacity: 1;
 }
 
 /* END MBUS */
