@@ -55,6 +55,13 @@ a:hover {
     line-height: 1.75;
 }
 
+#section-header a,a:link,a:visited {
+    color: #626264;
+    font-family: "Helvetica Neue", Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+
 /* START DESCRIPTION */
 
 #personal-bio {
@@ -68,7 +75,7 @@ a:hover {
 
 #personal-bio a,a:link,a:visited {
     color: #626264;
-    font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, sans-serif;
+    font-family: "Helvetica Neue", Helvetica, sans-serif;
     font-weight: bold;
 }
 
@@ -128,7 +135,7 @@ a:hover {
     height: 100%;
     background-color: #329bbe;
     border-bottom: 1px solid #1d6b8c;
-    background-image: url(images/periscope-bg-2.png);
+    background-image: url(images/periscopebg3.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -154,7 +161,7 @@ a:hover {
     height: 100%;
     background-color: #329bbe;
     text-align: center;
-    background-image: url(images/periscope-bg-2.png);
+    background-image: url(images/periscopebg3.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -194,7 +201,14 @@ a:hover {
     color: white;
 }
 
-#twitter-desktop #description {
+#twitter-desktop #descriptionft {
+    color: white;
+    padding-top: 5%;
+    padding-bottom: 0%;
+    line-height: 2.2;
+}
+
+#twitter-desktop #descriptionpt {
     color: white;
     padding-top: 5%;
     padding-bottom: 20%;
