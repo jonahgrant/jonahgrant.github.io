@@ -161,7 +161,6 @@ a:hover {
     height: 100%;
     background-color: #329bbe;
     text-align: center;
-    background-image: url(images/periscopebg3.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -169,6 +168,11 @@ a:hover {
 #periscope-mobile #logo {
     margin-left: 0px;
     padding-top: 40px;
+}
+
+#periscope-mobile #title {
+    padding-top: 3%;
+    color: white;
 }
 
 #periscope-mobile #description {
@@ -226,7 +230,24 @@ a:hover {
     padding-top: 40px;
 }
 
-#twitter-mobile #description {
+#twitter-mobile #titleft {
+    color: #ffffff;
+    width: 100%;
+    padding-top: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+#twitter-mobile #titlept {
+    color: #ffffff;
+    width: 100%;
+    padding-top: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+}
+
+#twitter-mobile #descriptionft {
     color: #ffffff;
     width: 100%;
     padding-top: 20px;
@@ -270,7 +291,16 @@ a:hover {
 
 #modest-mobile #logo {
     margin-left: 0px;
-    padding-top: 15%;
+    padding-top: 40px;
+}
+
+#modest-mobile #title {
+    color: #ffffff;
+    width: 100%;
+    padding-top: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 1%;
 }
 
 #modest-mobile #description {
@@ -279,7 +309,7 @@ a:hover {
     padding-top: 20px;
     padding-left: 30px;
     padding-right: 30px;
-    padding-bottom: 12%;
+    padding-bottom: 0px;
 }
 
 /* END MODEST */
@@ -306,7 +336,7 @@ a:hover {
     color: white;
 }
 
-#belly-desktop #bio {
+#belly-desktop #description {
     padding-left: 10%;
     color: white;
     padding-top: 2%;
@@ -317,7 +347,6 @@ a:hover {
 #belly-mobile {
     height: 100%;
     background-color: #33a9e0;
-    background: url(images/belly-bg-6.png);
     text-align: center;
 }
 
@@ -326,13 +355,21 @@ a:hover {
     padding-top: 10%;
 }
 
+#belly-mobile #title {
+    color: #ffffff;
+    width: 100%;
+    padding-top: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
 #belly-mobile #description {
     color: #ffffff;
     width: 100%;
     padding-top: 20px;
     padding-left: 30px;
     padding-right: 30px;
-    padding-bottom: 8%;
+    padding-bottom: 30px;
 }
 
 /* END BELLY */
@@ -358,7 +395,7 @@ a:hover {
     color: white;
 }
 
-#lightbank-desktop #bio {
+#lightbank-desktop #description {
     padding-left: 10%;
     color: white;
     padding-top: 2%;
@@ -376,6 +413,14 @@ a:hover {
 #lightbank-mobile #logo {
     margin-left: 0px;
     padding-top: 40px;
+}
+
+#lightbank-mobile #title {
+    color: #ffffff;
+    width: 100%;
+    padding-top: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
 #lightbank-mobile #description {
