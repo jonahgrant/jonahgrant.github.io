@@ -442,7 +442,9 @@ a:hover {
     padding-bottom: 50%;
     background-color: #167efb;
     border-bottom: 1px solid #155fed;
-
+    background: #00c6ff; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #00c6ff , #0072ff); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #00c6ff , #0072ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 #mbus-desktop #screenshots {
@@ -540,11 +542,14 @@ a:hover {
     height: 100%;
     padding-bottom: 5%;
     background-color: #3572ff;
+    background: #DA22FF; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #DA22FF , #9733EE); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #DA22FF , #9733EE); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 #wizzy-desktop #screenshots {
     margin-left: -20px;
-    padding-top: 4.5%;
+    padding-top: 7%;
 }
 
 #wizzy-desktop #description {
@@ -559,14 +564,20 @@ a:hover {
 }
 
 #wizzy-desktop #description #title {
-    font-family: 'Helvetica Neue';
-    font-weight: light;
-    font-size: 2.0175em;
+    font-family: "HelveticaNeue-UltraLight", "Helvetica Neue Ultra Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-weight: 100;
+    font-size: 40px;
+    letter-spacing: 2px;
+}
+
+#wizzy-desktop #description #subtitle {
+    font-family: "HelveticaNeue-UltraLight", "Helvetica Neue Ultra Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-weight: 100;
+    font-size: 20px;
 }
 
 #wizzy-desktop #footnote {
     font: 12px/18px "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
-
 }
 
 .btn-outline-inverse{
@@ -633,5 +644,92 @@ a:hover {
 }
 
 /* END MBUS */
+
+/* START MISC */
+
+#misc-desktop {
+    height: 100%;
+    background: #DAD299; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #DAD299 , #B0DAB9); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #DAD299 , #B0DAB9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#misc-desktop #logo {
+    padding-top: 4%;
+    padding-left: 7%;
+    padding-bottom: 0%;
+    font-family: "HelveticaNeue-UltraLight", "Helvetica Neue Ultra Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-weight: 300;
+    font-size: 40px;
+}
+
+#misc-desktop #title {
+    padding-top: 3%;
+    padding-left: 7%;
+    font-family: "HelveticaNeue-UltraLight", "Helvetica Neue Ultra Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-weight: 100;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+
+#misc-desktop #description {
+    padding-left: 7%;
+    padding-right:7%;
+    line-height: 2.2;
+    font: 12px/18px "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+    line-height: 1.6316;
+    font-size: 1.0175em;
+}
+
+#misc-desktop #context {
+    padding-left: 7%;
+    font-family: "HelveticaNeue-UltraLight", "Helvetica Neue Ultra Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-weight: 300;
+    font-size: 12px;
+}
+
+#misc-desktop a:link {
+    color: black;
+    font-family: "HelveticaNeue-UltraLight", "Helvetica Neue Ultra Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    font-style: italic;
+    opacity: 0.5;
+}
+
+#misc-mobile {
+    height: 100%;
+    background-color: #33a9e0;
+    background: #DAD299; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #DAD299 , #B0DAB9); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #DAD299 , #B0DAB9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    text-align: center;
+}
+
+#misc-mobile #logo {
+    margin-left: 0px;
+    padding-top: 40px;
+}
+
+#misc-mobile #title {
+    color: #ffffff;
+    width: 100%;
+    padding-top: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+#misc-mobile #description {
+    color: #ffffff;
+    width: 100%;
+    padding-top: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+}
+
+/* END MISC */
 
 </style>
