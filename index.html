@@ -1,34 +1,47 @@
-
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
-"http://www.w3.org/TR/html4/loose.dtd">
-<html lang="en">
-<head>
-<title>Jonah Grant</title>
-<meta name="description" content="Jonah Grant — Software engineer in New York City" />
-<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
-<style><!--
-div,td{color:#000}
-.f{color:#6f6f6f}
-.flc,.fl:link{color:#77c}
-a:link,.w,a.w:link,.w a:link,.q:visited,.q:link,.q:active,.q{color:#00c}
-a:visited,.fl:visited{color:#551a8b}
-a:active,.fl:active{color:red}
-//-->
-</style>
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-44925864-1', 'jonahgrant.com');
-  ga('send', 'pageview');
-
-</script>
-</head>
-<body>
-<iframe src="https://read.cv/jonah" style="position:fixed; top:0; left:0; bottom:0; right:0; width:100%; height:100%; border:none; margin:0; padding:0; overflow:hidden; z-index:999999;">
-    Your browser doesn't support iframes
-</iframe>
-</body>
+<html lang="en" class="no-js">
+   <head>
+      <meta charset="utf-8">
+      <title>Jonah Grant</title>
+      <meta name="description" content="Jonah Grant — Software engineer in New York City" />
+      <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+      <meta name="viewport" content="width=device-width,initial-scale=1.0">
+      <style>
+      html body {width: 100%;height: 100%;padding: 0px;margin: 0px;overflow: hidden;font-family: arial;font-size: 10px;color: #6e6e6e;background-color: #000;} #preview-frame {width: 100%;background-color: #fff;}</style>
+      <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+      <script>
+         //function to fix height of iframe!
+         var calcHeight = function() {
+           //var headerDimensions = 0; //$('#header-bar').height();
+           $('#preview-frame').height($(window).height());
+         }
+         
+         $(document).ready(function() {
+           calcHeight();
+           /*$('#header-bar a.close').mouseover(function() {
+             $('#header-bar a.close').addClass('activated');
+           }).mouseout(function() {
+             $('#header-bar a.close').removeClass('activated');
+           });*/
+         }); 
+         
+         $(window).resize(function() {
+           calcHeight();
+         }).load(function() {
+           calcHeight();
+         });
+      </script>
+      <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+        
+        ga('create', 'UA-44925864-1', 'jonahgrant.com');
+        ga('send', 'pageview');
+      </script>
+   </head>
+   <body>
+      <iframe id="preview-frame" src="https://read.cv/jonah/" name="preview-frame" frameborder="0" noresize="noresize" style="height: 902px;">
+      </iframe>
+   </body>
 </html>
